@@ -137,6 +137,7 @@ COPY ./multiproc.sh /workspace/multiproc.sh
 COPY ./assets /workspace/assets
 COPY ./seminar* /workspace/
 COPY ./entrypoint.sh /entrypoint.sh
+COPY ./heuristic.py /workspace/heuristic.py
 
 RUN chmod +x /workspace/multiproc.sh \
             /entrypoint.sh
