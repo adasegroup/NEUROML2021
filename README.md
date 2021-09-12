@@ -30,7 +30,7 @@ This course is specifically aimed at MSc and PhD students with basic knowledge o
     2) Download `NEUROML-2.0-data.zip` folder from link https://drive.google.com/file/d/152T5HcIhmlQZMle8nbxIceYQdOK5jWS7/view?usp=sharing and unzip on your local machine.
     3) Clone repository to your local machine
     4) Run docker locally and ensure it working with command `docker run hello-world`
-    5) In terminal: `cd NEUROML/seminar2`
+    5) In terminal: `cd NEUROML2021/seminar2`
     6) Type command `docker build -t neuroml/seminar2:0.0.1` and wait for successfull build
     7) Run `docker run --rm -it -v /directory/to/downloaded/data:/workspace/data -p 8080:8080 neuroml/seminar2:0.0.1`
     `/directory/to/downloaded/data` from 2) (for Windows mount point will begin with -v C:/path/to/dir)
